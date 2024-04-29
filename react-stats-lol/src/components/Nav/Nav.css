@@ -1,0 +1,51 @@
+.wrapper-nav {
+
+}
+.nav {
+    background-color: #52D6A5 !important;
+    color: white!important;
+    position: relative;
+    padding: 20px;
+   
+
+}
+.nav::before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #020711 ;
+
+
+    
+
+}
+.nav::after{
+    content: "";
+    
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid #020711 ;
+
+    
+
+}
+.navLink {
+
+    color: #020711 !important;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 20px !important;
+}
+
